@@ -6,8 +6,8 @@ import pickle
 from utils import Hps
 from utils import DataLoader
 from utils import Logger
-from utils import myDataset
-from utils import Indexer
+# from utils import myDataset
+# from utils import Indexer
 from solver import Solver
 from preprocess.tacotron.norm_utils import spectrogram2wav
 #from preprocess.tacotron.audio import inv_spectrogram, save_wav
@@ -16,8 +16,8 @@ from scipy.io.wavfile import write
 import h5py 
 import os 
 import soundfile as sf
-#import pysptk
-#import pyworld as pw
+import pysptk
+import pyworld as pw
 
 def sp2wav(sp): 
     #exp_sp = np.exp(sp)
