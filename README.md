@@ -9,7 +9,7 @@
 - Binaya Kumar Sahoo (213070009)
 
 This is the implementation of the paper on a smaller subset of the dataset : VCTK Corpus, with 8 speakers, compared to 
-the original paper implementation at [Original Github Link](https://github.com/jjery2243542/voice_conversion).
+the original paper implementation at [Original Github Link](https://github.com/jjery2243542/voice_conversion). This is only for educational purpose, and the code used here is from the original github repository.
 
 The github link mentioned here also uses the content of the tacotron model implementation by the same author as a part of
 preprocessing steps.
